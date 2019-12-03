@@ -4,11 +4,11 @@ http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'application/json; charset=utf-8'});
 
     var objeto = {
-        mensaje : 'Hola mundo Node JS Repo GIT - Arciniega Alatorre Luis Angel\n'
+        mensaje : 'Hola mundo Node JS Repo GIT - Guerrero Vazquez Alan Gabriel\n'
     };
 
     var json = JSON.stringify(objeto);
-
+    
     res.end(json);
 
 }).listen(8081);
